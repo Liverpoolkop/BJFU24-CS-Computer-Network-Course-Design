@@ -1,5 +1,5 @@
 # BJFU24-CS-Computer-Network-Course-Design
-## UDP Server and Client
+## Task2:UDP Server and Client
 这是一个简单的 UDP 服务器和客户端示例项目，用于演示基本的 UDP 通信和报文处理。
 服务器接收客户端发送的报文，并根据一定的丢包率模拟网络丢包，客户端则发送多个报文并计算往返时间（RTT）。
 ### 文件结构
@@ -34,7 +34,7 @@ version：报文版本号，默认为 2。
 请根据实际需要调整 server_port 和 drop_rate 参数，以适应不同的网络环境。
 客户端默认发送 12 个报文，每个报文的最大重传次数为 3 次，超时时间为 0.1 秒，可以根据需要进行调整。
 
-### Reverse TCP Server 和 Reverse UDP Client
+### Task3:Reverse TCP Server 和 Reverse UDP Client
 该项目包含两个主要组件：reversetcpserver 和 reverseudpclient。
 reversetcpserver 是一个反转字符串的 TCP 服务器
 而 reverseudpclient 是一个向服务器发送字符串并接收反转字符串的 UDP 客户端。
